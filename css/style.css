@@ -5,10 +5,55 @@
     font-family: "Roboto", sans-serif;
 }
 
-.rosa{
+.rosa {
     color: rgb(226, 109, 203);
 }
 
-.centro{
+.centro {
     text-align: center;
 }
+
+
+.riga { 
+    width: calc(100% / 3);
+    float: left;
+    background-color: rgb(0, 0, 30);
+    color: aliceblue;
+    width: 350px;
+    height: 100px;
+}
+
+
+span, a {
+    display: block;
+    text-decoration: none;
+}
+
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.riga img
+ {
+    float: left;
+}
+
+.riga h3,
+.riga span,
+.riga a{
+   padding: 5px;
+   padding-top: 7px;
+    margin-left: 110px;
+}
+
+
+
+
